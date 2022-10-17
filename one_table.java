@@ -1,3 +1,6 @@
+/*
+서은경
+*/
 public static void main(String[] args) {
     System.out.print("[구구단 출력]");
     System.out.println();
