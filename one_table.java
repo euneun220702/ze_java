@@ -1,6 +1,7 @@
 /*
 서은경
 */
+public class one_table {
 public static void main(String[] args) {
     System.out.print("[구구단 출력]");
     System.out.println();
@@ -11,4 +12,5 @@ public static void main(String[] args) {
         }
         System.out.println();
     }
+}
 }
