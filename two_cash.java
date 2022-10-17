@@ -1,7 +1,14 @@
  /*
 서은경
 */
- System.out.print("결제 금액을 입력해 주세요.(금액): " );
+import java.math.BigDecimal;
+import java.util.Scanner;
+
+public class two_cash {
+ public static void main(String[] args) {
+  System.out.println("[캐시백 계산]");
+  Scanner s = new Scanner([System.in](http://system.in/));
+  System.out.print("결제 금액을 입력해 주세요.(금액): " );
     int input = s.nextInt();
 
     int cash = 10;
@@ -20,4 +27,5 @@
 
     }
 
+ }
 }
